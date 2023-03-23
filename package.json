@@ -1,6 +1,6 @@
 {
   "name": "zustand-jest-utils",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Zustand Jest Utils: A set of utility functions designed to simplify testing Zustand stores in your React applications with Jest, providing functions for creating mock stores, replacing stores, rendering components with custom stores, and resetting stores.",
   "keywords": [
     "zustand",
