@@ -1,13 +1,13 @@
-# zustand-jest-utils
+# zustand-jest-testing-utils
 
-`zustand-jest-utils` is a set of utility functions designed to simplify testing custom stores in your React applications. The package is compatible with Zustand and provides functions for creating mock stores, replacing stores, rendering components with custom stores, and resetting stores.
+`zustand-jest-testing-utils` is a set of utility functions designed to simplify testing custom stores in your React applications. The package is compatible with Zustand and provides functions for creating mock stores, replacing stores, rendering components with custom stores, and resetting stores.
 
 ## Installation
 
 Install the package using npm:
 
 ```
-npm install zustand-jest-utils
+npm install zustand-jest-testing-utils
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ import {
   replaceStore,
   renderWithStore,
   resetStore,
-} from 'zustand-jest-utils';
+} from 'zustand-jest-testing-utils';
 ```
 
 ## Creating a Test Store
@@ -86,7 +86,7 @@ Here's an example of how to use React Testing Store Utils in a test:
 import {
   createMockStore,
   renderWithStore,
-} from 'zustand-jest-utils';
+} from 'zustand-jest-testing-utils';
 
 import { fireEvent, screen } from '@testing-library/react';
 import MyComponent from './MyComponent';
@@ -108,7 +108,7 @@ test('MyComponent should update the count on button click', () => {
 
 ## License
 
-`zustand-jest-utils` is released under the MIT License.
+`zustand-jest-testing-utils` is released under the MIT License.
 
 ## Contributing
 
