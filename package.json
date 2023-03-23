@@ -1,8 +1,7 @@
 {
   "name": "zustand-jest-testing-utils",
   "version": "1.0.0",
-  "description": "\"Zustand Jest Testing Utils: A set of utility functions designed to simplify testing Zustand stores in your React applications with Jest, providing functions for creating mock stores, replacing stores, rendering components with custom stores, and resetting stores.\"",
-  "main": "src/index.ts",
+  "description": "Zustand Jest Testing Utils: A set of utility functions designed to simplify testing Zustand stores in your React applications with Jest, providing functions for creating mock stores, replacing stores, rendering components with custom stores, and resetting stores.",
   "keywords": [
     "zustand",
     "jest",
@@ -14,7 +13,14 @@
     "test-helpers",
     "state-management"
   ],
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -22,7 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/eddi3js/zustand-jest-testing-utils.git"
   },
-  "author": "Eddie SanMarco",
+  "author": "Eddi3js",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eddi3js/zustand-jest-testing-utils/issues"
@@ -33,6 +39,10 @@
     "react": "^18.2.0",
     "typescript": "^5.0.2",
     "zustand": "^4.3.6"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "zustand": "^3.5.5"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",

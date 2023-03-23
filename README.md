@@ -1,6 +1,9 @@
-React Testing Store Utils is a set of utility functions designed to simplify testing custom stores in your React applications. The package is compatible with Zustand and provides functions for creating mock stores, replacing stores, rendering components with custom stores, and resetting stores.
+# zustand-jest-testing-utils
 
-Installation
+`zustand-jest-testing-utils` is a set of utility functions designed to simplify testing custom stores in your React applications. The package is compatible with Zustand and provides functions for creating mock stores, replacing stores, rendering components with custom stores, and resetting stores.
+
+## Installation
+
 Install the package using npm:
 
 ```
@@ -105,7 +108,7 @@ test('MyComponent should update the count on button click', () => {
 
 ## License
 
-React Testing Store Utils is released under the MIT License.
+`zustand-jest-testing-utils` is released under the MIT License.
 
 ## Contributing
 
