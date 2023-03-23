@@ -71,7 +71,9 @@ const { getByText } = renderWithStore(<MyComponent />, store);
 
 Use the resetStore function to reset a store to its initial state:
 
-`resetStore(store, initialState);`
+```
+resetStore(store, initialState);
+```
 
 ### Example
 
@@ -82,6 +84,7 @@ import {
   createMockStore,
   renderWithStore,
 } from 'react-testing-store-utils';
+
 import { fireEvent, screen } from '@testing-library/react';
 import MyComponent from './MyComponent';
 
